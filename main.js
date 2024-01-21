@@ -6,8 +6,6 @@ let resultDif = firstNum - secondNum;
 let resultProd = firstNum * secondNum;
 let resultQuot = firstNum / secondNum;
 
-console.log(`${firstNum} + ${secondNum} = ${resultSum}`)
-
 alert(`
   ${firstNum} + ${secondNum} = ${resultSum} \n
   ${firstNum} - ${secondNum} = ${resultDif} \n 
