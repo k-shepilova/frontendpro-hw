@@ -1,0 +1,32 @@
+body {
+  background-color: #cbffcb;
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #cae9ff;
+  box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.35);
+  max-width: 800px;
+  width: 100%;
+  margin: 40px auto;
+  padding: 40px 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.task {
+  margin: 20px;
+}
+
+.task-12 {
+  width: 100%;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.task-12 h2 {
+  grid-column: 1 / -1;
+  width: 100%;
+}
