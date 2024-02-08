@@ -1,0 +1,22 @@
+.holder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ghost {
+  background: purple;
+  border-radius: 50%;
+  margin-left: 50px;
+  opacity: 0;
+  font-size: 50px;
+  padding: 16px 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#textField {
+  padding: 10px;
+  font-size: 20px;
+}
