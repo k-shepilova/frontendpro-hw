@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slides{
+  border-radius: 5px;
+  border: 2px solid lightsalmon;
+  overflow: hidden;
+}
+
+.image {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: lightsalmon;
+  border: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 20px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: salmon;
+}
