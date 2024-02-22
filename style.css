@@ -1,0 +1,19 @@
+.smiles-holder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.smile-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.smile-btn{
+  cursor: pointer;
+  margin-bottom: 20px;
+}
