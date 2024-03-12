@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.col {
+  width: 33.33%;
+  border-right: 1px solid black;
+  padding: 20px;
+}
+
+.col:last-child {
+  border: none;
+}
+
+.post {
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+
+.current-post .title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.current-post div {
+  margin-bottom: 20px;
+}
+
+.email {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+ul {
+  padding-left: 1em;
+  margin-top: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
