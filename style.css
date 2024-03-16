@@ -55,13 +55,13 @@ button {
   transition: 0.3s;
 }
 
-button:hover{
+button:hover {
   background: #4a2f8d;
   color: white;
   border: 1px solid white;
 }
 
-.weather-info{
+.weather-info {
   display: flex;
   align-items: flex-start;
 }
@@ -75,6 +75,6 @@ button:hover{
   flex: 1 1 65%;
 }
 
-img{
+img {
   width: 100%;
 }
