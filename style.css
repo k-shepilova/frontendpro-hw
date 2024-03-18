@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  font-size: 30px;
+  height: 100%;
+}
+
+.col-cat, .col-items, .col-info {
+  width: 33.33%;
+  height: 100%;
+  border-right: 1px solid black;
+}
+
+.col-cat {
+  background: lavender;
+}
+
+.col-items {
+  background: peachpuff;
+}
+
+.col-info {
+  background: wheat;
+  padding: 20px;
+}
+
+.category, .item {
+  padding: 20px;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.category:hover {
+  background: lightblue;
+
+}
+
+.item:hover {
+  background: pink;
+}
+
+.buy-btn {
+  background: rosybrown;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.buy-btn:hover {
+  background: darksalmon;
+}
+
+.message-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background: transparent;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  transition: 0.3s;
+  font-size: 30px;
+}
+
+.close-btn:hover {
+  color: darkred;
+}
+
+.form-wrapper, .buy-message {
+  font-size: 18px;
+  position: fixed;
+  background: #ae96f3;
+  border-radius: 30px;
+  border: 2px solid #4a2f8d;
+  padding: 40px 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+}
+
+form .col {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+input, select, textarea {
+  display: block;
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 5px 10px;
+  max-width: 100%;
+  width: 100%;
+}
+
+button[type="submit"] {
+  font-size: 20px;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 0 20px;
+}
+
+label {
+  color: #282828;
+}
+
+fieldset {
+  border-color: #282828;
+  color: #282828;
+}
+
+fieldset input {
+  display: inline-block;
+  width: unset;
+}
+
+input[type="radio"], .close-btn, .submit-btn, fieldset label {
+  cursor: pointer;
+}
+
+.submit-btn {
+  background: #a1e5a1;
+  border: 3px solid #a1e5a1;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: transparent;
+}
+
+em {
+  color: darkred;
+}
